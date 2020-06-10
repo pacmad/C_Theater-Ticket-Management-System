@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18A014A5-6DB4-4BDB-81C8-0BE9CA31C8E3}</ProjectGuid>
+    <RootNamespace>TTMS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\base64.c" />
+    <ClCompile Include="Common\common.c" />
+    <ClCompile Include="Common\listTestDrv.c" />
+    <ClCompile Include="Persistence\Account_Pst.c" />
+    <ClCompile Include="Persistence\EntityKey_Persist.c" />
+    <ClCompile Include="Persistence\Seat_Persist.c" />
+    <ClCompile Include="Persistence\Studio_Persist.c" />
+    <ClCompile Include="Service\Account.c" />
+    <ClCompile Include="Service\Seat.c" />
+    <ClCompile Include="Service\Studio.c" />
+    <ClCompile Include="TTMS.c" />
+    <ClCompile Include="View\Account_UI.c" />
+    <ClCompile Include="View\Main_Menu.c" />
+    <ClCompile Include="View\Play_UI.c" />
+    <ClCompile Include="View\Seat_UI.c" />
+    <ClCompile Include="View\Studio_UI.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\base64.h" />
+    <ClInclude Include="Common\common.h" />
+    <ClInclude Include="Common\List.h" />
+    <ClInclude Include="Common\listTestDrv.h" />
+    <ClInclude Include="Persistence\Account_Pst.h" />
+    <ClInclude Include="Persistence\EntityKey_Persist.h" />
+    <ClInclude Include="Persistence\Seat_Persist.h" />
+    <ClInclude Include="Persistence\Studio_Persist.h" />
+    <ClInclude Include="Service\Account.h" />
+    <ClInclude Include="Service\Seat.h" />
+    <ClInclude Include="Service\Studio.h" />
+    <ClInclude Include="View\Account_UI.h" />
+    <ClInclude Include="View\Main_Menu.h" />
+    <ClInclude Include="View\Play_UI.h" />
+    <ClInclude Include="View\Seat_UI.h" />
+    <ClInclude Include="View\Studio_UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TTMS.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{b8b45231-9bb1-46eb-8589-d75d1e272fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\View">
+      <UniqueIdentifier>{ac4524a8-9d9d-4012-89d8-b1aea94df7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Persistence">
+      <UniqueIdentifier>{b4cc8b2c-a176-4dd2-906c-1451417c5a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Service">
+      <UniqueIdentifier>{72d6cf1a-f934-4dcb-8c56-e66948e430c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Common">
+      <UniqueIdentifier>{2855ec7e-ebad-498c-ae85-e51fbeb4358d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\View">
+      <UniqueIdentifier>{b305738b-ac2b-4114-b4ac-7d4062826ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Service">
+      <UniqueIdentifier>{1b653bfd-d6ba-46a9-8000-9c6f5bdb665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Persistence">
+      <UniqueIdentifier>{9b9c7eba-52e8-4537-853c-c006a6f5b82c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\common.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\listTestDrv.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Seat.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Studio.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistence\EntityKey_Persist.c">
+      <Filter>源文件\Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistence\Seat_Persist.c">
+      <Filter>源文件\Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistence\Studio_Persist.c">
+      <Filter>源文件\Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Main_Menu.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Seat_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Studio_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Account_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Account.c">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\base64.c">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistence\Account_Pst.c">
+      <Filter>源文件\Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Play_UI.c">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\common.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\List.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\listTestDrv.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Seat.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Studio.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence\EntityKey_Persist.h">
+      <Filter>头文件\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence\Seat_Persist.h">
+      <Filter>头文件\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence\Studio_Persist.h">
+      <Filter>头文件\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Main_Menu.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Seat_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Studio_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Account_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Account.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\base64.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence\Account_Pst.h">
+      <Filter>头文件\Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Play_UI.h">
+      <Filter>头文件\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TTMS.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
