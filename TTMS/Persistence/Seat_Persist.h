@@ -11,7 +11,7 @@
 #ifndef SEATPERSIST_H_
 #define SEATPERSIST_H_
 #define _CRT_SECURE_NO_DEPRECATE
-#include "../Service/Seat.h"
+
 
 //标识符： TTMS_SCU_Seat_Perst_Insert
 //功能：向文件中存储新座位

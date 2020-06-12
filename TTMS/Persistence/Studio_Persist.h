@@ -11,7 +11,7 @@
 #ifndef STUDIO_PERSIST_H_
 #define STUDIO_PERSIST_H_
 #define _CRT_SECURE_NO_DEPRECATE
-#include "../Service/Studio.h"
+
 
 //标识符：TTMS_SCU_Studio_Perst_Insert 
 //功能：向文件中存储新演出厅 

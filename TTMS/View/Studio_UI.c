@@ -8,16 +8,17 @@
 * Date: 	2015年4月22日	
 */
 
-#include "../View/Studio_UI.h"
-
+#include "Studio_UI.h"
+#include <stdio.h>
+#include <stdlib.h>
 #include "../Common/List.h"
 #include "../Service/Studio.h"
 #include "../Service/Seat.h"
-
+#include "../Service/Studio.h"
+#include "Seat_UI.h"
 
 static const int STUDIO_PAGE_SIZE = 5;
 
-#include <stdio.h>
 
 /*
 标识符：TTMS_SCU_Studio_UI_MgtEnt 
@@ -25,20 +26,20 @@ static const int STUDIO_PAGE_SIZE = 5;
 参数说明：无。
 返 回 值：无。
 */
-void Studio_UI_MgtEntry(void) {
+void Studio_UI_MgtEntry(void){
 	int i, id;
 	char choice;
 
 	studio_list_t head;
-	studio_node_t *pos;
-	Pagination_t paging;
+	studio_node_t *pos;	
+	Pagination_t paging;		//分页器
 
 	List_Init(head, studio_node_t);
 	paging.offset = 0;
 	paging.pageSize = STUDIO_PAGE_SIZE;
 
 	//载入数据
-	paging.totalRecords = Studio_Srv_FetchAll(head);
+	paging.totalRecords = Studio_Srv_FetchAll(head);		//使演出厅信息链表被分页器感知
 	Paging_Locate_FirstPage(head, paging);
 
 	do {
@@ -104,10 +105,9 @@ void Studio_UI_MgtEntry(void) {
 		case 'S':
 			printf("Input the ID:");
 			scanf("%d", &id);
-			if(Seat_UI_MgtEntry(id)){
-				paging.totalRecords = Studio_Srv_FetchAll(head);
-				List_Paging(head, paging, studio_node_t);
-			}
+			Seat_UI_MgtEntry(id);
+			paging.totalRecords = Studio_Srv_FetchAll(head);
+			List_Paging(head, paging, studio_node_t);
 			break;
 		case 'p':
 		case 'P':
@@ -252,18 +252,3 @@ int Studio_UI_Delete(int id) {
 	return rtn;
 }
 
-
-
-int Seat_UI_MgtEntry(int id){
-	int rtn = 0;
-
-	if (){
-
-	}
-	else{
-		printf("The room does not exist!\n Press [Enter] key to continue!\n");
-	}
-
-	getchar();
-	return rtn;
-}

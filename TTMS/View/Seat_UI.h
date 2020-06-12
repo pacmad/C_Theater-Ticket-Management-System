@@ -10,8 +10,9 @@
 
 #ifndef SEAT_UI_H_
 #define SEAT_UI_H_
-#include "../Common/list.h"
-#include "../Service/seat.h"
+
+
+
 #define _CRT_SECURE_NO_DEPRECATE
 //标识符：TTMS_SCU_Seat_UI_MgtEnt 
 //功能：管理座位界面

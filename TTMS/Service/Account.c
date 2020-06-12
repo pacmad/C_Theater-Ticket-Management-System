@@ -1,4 +1,10 @@
 ﻿#include "Account.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "../Common/common.h"
+#include "../Common/List.h"
+#include "../Persistence/Account_Pst.h"
 
 // 初次登录系统进行管理账户创建
 void Account_Srv_InitSys(){
@@ -7,7 +13,7 @@ void Account_Srv_InitSys(){
 		return;
 	}
 	account_t init_admin_info;
-	char passwd[MAX_LEN];
+	unsigned char passwd[MAX_LEN];
 	printf("\n"
 		"　　	   へ　　　　　／|\n"
 		"　　	  /＼7　　　 ∠＿/\n"
@@ -52,7 +58,7 @@ void Account_Srv_InitSys(){
 		}
 	}
 
-	strcpy(init_admin_info.passwd, passwd);
+	strcpy(init_admin_info.passwd, base64_encode(passwd));	//base64 "加密字符串"
 
 	printf("Security Code for Fogetting Password:");
 	scanf("%s", init_admin_info.secret_ans);
@@ -63,11 +69,12 @@ void Account_Srv_InitSys(){
 
 }
 
-int Account_Srv_Verify(char username[], char passwd[]){
+int Account_Srv_Verify(char username[], unsigned char passwd[]){
 	account_t user;
 	if (Account_Perst_SelByName(username, &user)){
+		strcpy(user.passwd, base64_decode(user.passwd));
 		if (!strcmp(user.passwd, passwd)){
-			gl_CurUser = user;
+			gl_CurUser = user;			// 全局
 			return 1;
 		}
 		else{
@@ -77,8 +84,17 @@ int Account_Srv_Verify(char username[], char passwd[]){
 	return 0;
 }
 
-// 找回密码 -- 输入用户名 密保 重新输入两遍密码
-MaiAccount_UI_Mgt();
+account_node_t* Account_Srv_FindByUsrName(account_list_t list, char userName[]) {
+	account_node_t* tmp;
+	List_ForEach(list, tmp){
+		if (strcmp(tmp->data.username, userName) == 0){
+			return tmp;
+		}
+	}
+	return NULL;
+}
+
+
 
 //添加一个用户账号，通过调用Account_Perst_Insert(data)函数实现
 int Account_Srv_Add(const account_t *data){
@@ -111,5 +127,4 @@ int Account_Srv_FetchByName(char usrName[], account_t *buf){
 //提取所有用户账号信息，保存到list链表中，通过调用Account_Perst_SelectAll(list)函数实现
 int Account_Srv_FetchAll(account_list_t list){
 	return Account_Perst_SelectAll(list);
-
 }

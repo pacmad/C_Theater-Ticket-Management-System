@@ -1,19 +1,229 @@
-﻿生成启动时间为 2020/6/10 13:00:58。
+﻿生成启动时间为 2020/6/12 14:57:00。
      1>项目“C:\Users\fddfl\documents\visual studio 2013\Projects\TTMS\TTMS\TTMS.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Service\Account.c View\Account_UI.c
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Persistence\Account_Pst.c Persistence\Seat_Persist.c Service\Account.c Service\Seat.c TTMS.c View\Account_UI.c View\Main_Menu.c View\Play_UI.c View\Seat_UI.c View\Studio_UI.c
+         Studio_UI.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“,”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2081: “seat_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2081: “account_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
+         Seat_UI.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“,”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2081: “seat_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2081: “account_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\seat_ui.c(56): error C2065: “gl_CurUser”: 未声明的标识符
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\seat_ui.c(56): error C2224: “.type”的左侧必须具有结构/联合类型
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\seat_ui.c(74): warning C4133: “=”: 从“studio_t *”到“seat_list_t”的类型不兼容
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\seat_ui.c(211): warning C4133: “函数”: 从“seat_node_t *”到“const seat_t *”的类型不兼容
+         Play_UI.c
+         Main_Menu.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“,”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2081: “seat_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2081: “account_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(14): warning C4013: “SysLogin”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(42): warning C4013: “Play_UI_MgtEntry”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(46): warning C4013: “Queries_Menu”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(50): warning C4013: “Sale_UI_MgtEntry”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(54): warning C4013: “Sale_UI_ReturnTicket”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(58): warning C4013: “SalesAanalysis_UI_MgtEntry”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\main_menu.c(62): warning C4013: “Account_UI_MgtEntry”未定义；假设外部返回 int
          Account_UI.c
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(14): warning C4566: 由通用字符名称“\uFF72”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(14): warning C4566: 由通用字符名称“\uFF64”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(14): warning C4566: 由通用字符名称“\u2282”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(14): warning C4566: 由通用字符名称“\u2283”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(16): warning C4566: 由通用字符名称“\uFF70”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(16): warning C4566: 由通用字符名称“\uFF64”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(17): warning C4566: 由通用字符名称“\uFF89”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2081: “account_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(15): warning C4566: 由通用字符名称“\uFF72”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(15): warning C4566: 由通用字符名称“\uFF64”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(15): warning C4566: 由通用字符名称“\u2282”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(15): warning C4566: 由通用字符名称“\u2283”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(17): warning C4566: 由通用字符名称“\uFF70”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(17): warning C4566: 由通用字符名称“\uFF64”表示的字符不能在当前代码页(936)中表示出来
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(18): warning C4566: 由通用字符名称“\uFF89”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(20): warning C4566: 由通用字符名称“\uFF70”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(19): warning C4566: 由通用字符名称“\uFF89”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(21): warning C4566: 由通用字符名称“\uFF70”表示的字符不能在当前代码页(936)中表示出来
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(153): error C2065: “gl_CurUser”: 未声明的标识符
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(153): error C2224: “.type”的左侧必须具有结构/联合类型
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\view\account_ui.c(156): warning C4098: “Account_UI_MgtEntry”:“void”函数返回值
+         TTMS.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“,”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2081: “seat_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2081: “account_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
+         Seat.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(23): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(27): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(31): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“,”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(44): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2081: “seat_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(48): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2146: 语法错误: 缺少“)”(在标识符“list”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2061: 语法错误: 标识符“list”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.h(52): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\seat.c(19): warning C4013: “Seat_Perst_Insert”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\seat.c(38): warning C4013: “Seat_Perst_Update”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\seat.c(76): warning C4013: “Seat_Perst_SelectByRoomID”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\seat.c(109): warning C4013: “Seat_Perst_InsertBatch”未定义；假设外部返回 int
          Account.c
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(7): warning C4013: “Account_Perst_CheckAccFile”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(13): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2081: “account_t”: 形参表中的名称非法
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(15): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.h(17): error C2059: 语法错误:“)”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(19): warning C4566: 由通用字符名称“\uFF72”表示的字符不能在当前代码页(936)中表示出来
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(19): warning C4566: 由通用字符名称“\uFF64”表示的字符不能在当前代码页(936)中表示出来
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(19): warning C4566: 由通用字符名称“\u2282”表示的字符不能在当前代码页(936)中表示出来
@@ -23,19 +233,30 @@
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(22): warning C4566: 由通用字符名称“\uFF89”表示的字符不能在当前代码页(936)中表示出来
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(23): warning C4566: 由通用字符名称“\uFF89”表示的字符不能在当前代码页(936)中表示出来
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(25): warning C4566: 由通用字符名称“\uFF70”表示的字符不能在当前代码页(936)中表示出来
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(31): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(37): warning C4013: “getch”未定义；假设外部返回 int
-     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(67): warning C4028: 形参 2 与声明不同
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(69): warning C4013: “Account_Perst_SelByName”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(70): warning C4013: “base64_decode”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(70): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(70): warning C4024: “strcpy”: 形参和实参 2 的类型不同
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(72): error C2065: “gl_CurUser”: 未声明的标识符
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(72): error C2440: “=”: 无法从“account_t”转换为“int”
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(86): warning C4013: “Account_Perst_Insert”未定义；假设外部返回 int
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(91): warning C4013: “Account_Perst_Update”未定义；假设外部返回 int
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(96): warning C4013: “Account_Perst_DeleteByID”未定义；假设外部返回 int
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(102): warning C4013: “Account_Perst_SelectByID”未定义；假设外部返回 int
      1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.c(114): warning C4013: “Account_Perst_SelectAll”未定义；假设外部返回 int
+         Seat_Persist.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.c(35): warning C4013: “EntKey_Perst_GetNewKeys”未定义；假设外部返回 int
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.c(56): warning C4133: “初始化”: 从“char *”到“FILE *”的类型不兼容
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.c(144): warning C4090: “函数”: 不同的“const”限定符
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\seat_persist.c(145): warning C4090: “函数”: 不同的“const”限定符
+         Account_Pst.c
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2061: 语法错误: 标识符“gl_CurUser”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\service\account.h(13): error C2059: 语法错误:“;”
+     1>c:\users\fddfl\documents\visual studio 2013\projects\ttms\ttms\persistence\account_pst.c(37): warning C4013: “assert”未定义；假设外部返回 int
          正在生成代码...
      1>已完成生成项目“C:\Users\fddfl\documents\visual studio 2013\Projects\TTMS\TTMS\TTMS.vcxproj”(Build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:00.28
+已用时间 00:00:01.80

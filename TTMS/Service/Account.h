@@ -1,13 +1,12 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "../Common/common.h"
+
 #define _CRT_SECURE_NO_DEPRECATE
 #define MAX_LEN 30
 
+// 全局变量
+account_t gl_CurUser;
 
 //定义枚举类型account_type_t，描述用户的角色
 typedef enum {
@@ -33,8 +32,7 @@ typedef struct account_node {
 	struct account_node *next, *prev;
 } account_node_t, *account_list_t;
 
-// 全局变量
-account_t gl_CurUser;
+
 
 
 int Account_Srv_Verify(char usrName[], unsigned char pwd[]);
@@ -52,7 +50,10 @@ int Account_Srv_FetchByName(char usrName[], account_t *buf);
 //获取所有系统用户
 int Account_Srv_FetchAll(account_list_t list);
 
-void Account_Srv_InitSys();
+void Account_Srv_InitSys(void);
+
+account_node_t* Account_Srv_FindByUsrName(account_list_t list, char userName[]);
+
 
 
 #endif

@@ -11,6 +11,10 @@
 #ifndef SEAT_H_
 #define SEAT_H_
 #define _CRT_SECURE_NO_DEPRECATE
+
+
+
+
 //×ùÎ»×´Ì¬ 
 typedef enum{
 	SEAT_NONE=0,			//¿ÕÎ»
